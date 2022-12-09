@@ -1,0 +1,12 @@
+package injecting_inner_beans;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("Config.xml");
+        TextEditor te = (TextEditor) context.getBean("textEditor");
+        te.spellCheck();
+    }
+}
