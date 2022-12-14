@@ -5,7 +5,7 @@ import java.util.*;
 public class JavaController {
     List addressList;
     Set addressSet;
-    Map addressmap;
+    Map addressMap;
     Properties addressPro;
 
     public void setAddressList(List addressList){
@@ -23,17 +23,17 @@ public class JavaController {
         return addressSet;
     }
     public void setAddressMap(Map addressmap){
-        this.addressmap = addressmap;
+        this.addressMap = addressmap;
     }
     public Map getAddressMap(){
-        System.out.println("Map Elements: "+ addressmap);
-        return addressmap;
+        System.out.println("Map Elements: "+ addressMap);
+        return addressMap;
     }
-    public void setAddressPro(Properties addresspro){
-        this.addressPro = addresspro;
+    public void setAddressPro(Properties addressPro){
+        this.addressPro = addressPro;
     }
     public Properties getAddressPro(){
-        System.out.println("Map Elements: "+ addressPro);
+        System.out.println("Properties Elements: "+ addressPro);
         return addressPro;
     }
 }

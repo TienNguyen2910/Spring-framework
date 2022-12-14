@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bfb3bd-a3cc-49d7-aa0f-d4057af1e561" name="Changes" comment="Spring Bean Definition Inheritance">
+    <list default="true" id="42bfb3bd-a3cc-49d7-aa0f-d4057af1e561" name="Changes" comment="Spring Injecting collection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/injecting_collection/JavaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/injecting_collection/JavaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/collection.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,26 @@
       <recent name="D:\Learn Java\SpringFramework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.injecting_inner_beans.Main">
+  <component name="RunManager" selected="Application.injecting_collection.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="SpringFramework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="injecting_collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="injecting_collection.Main" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="injecting_collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.injecting_collection.Main" />
         <item itemvalue="Application.injecting_inner_beans.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -93,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670570222144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring Injecting Inner Beans">
+      <created>1670574447063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670574447063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring Injecting collection">
+      <created>1670580386036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670580386036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,20 +139,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring Bean Definition Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Bean Definition Inheritance" />
+    <MESSAGE value="Spring Injecting Inner Beans" />
+    <MESSAGE value="Spring Injecting collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Injecting collection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/injecting_inner_beans/TextEditor.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/injecting_inner_beans/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/injecting_collection/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/injecting_collection/Main.java</url>
           <line>8</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

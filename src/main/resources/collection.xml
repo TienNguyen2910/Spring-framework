@@ -12,7 +12,7 @@
                 <value>India</value>
                 <value>Rusia</value>
                 <value>Japan</value>
-                <value>Taiwan</value>
+                <value>Japan</value>
             </list>
         </property>
         <property name = "addressSet">
@@ -20,18 +20,18 @@
                 <value>India</value>
                 <value>Rusia</value>
                 <value>Japan</value>
-                <value>Taiwan</value>
+                <value>Japan</value>
             </set>
         </property>
         <property name = "addressMap">
             <map>
                 <entry key ="1" value="India"/>
-                <entry key ="1" value="Rusia" />
-                <entry key ="1" value="Japan"/>
-                <entry key ="1" value="Taiwan"/>
+                <entry key ="2" value="Rusia" />
+                <entry key ="3" value="Japan"/>
+                <entry key ="4" value="Japan"/>
             </map>
         </property>
-        <property name = "addressProp">
+        <property name = "addressPro">
             <props>
                 <prop key = "one">INDIA</prop>
                 <prop key = "one">INDIA</prop>
